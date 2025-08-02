@@ -33,19 +33,19 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 gradient-subtle">
+    <section id="contact" className="py-16 sm:py-20 gradient-zen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-secondary mb-4">
             Prenons Contact
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Prêt à commencer votre parcours de transformation ? Contactez-moi pour une consultation gratuite.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
           {/* Contact Form */}
           <Card className="shadow-medium">
             <CardHeader>

@@ -21,7 +21,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c716c243-dfad-4976-9b57-d6e1932eaf23.png" 
               alt="Najib Canada Coaching" 
-              className="h-12 w-auto"
+              className="h-10 sm:h-12 w-auto mix-blend-multiply"
             />
           </div>
 
