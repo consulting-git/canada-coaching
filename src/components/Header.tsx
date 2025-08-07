@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import transparentLogo from "@/assets/najib-logo-transparent.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +19,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src={transparentLogo} 
+              src="/lovable-uploads/1d395a48-e567-4542-91fa-dddefb339339.png" 
               alt="Najib Canada Coaching" 
               className="h-10 sm:h-12 w-auto"
             />
