@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin } from "lucide-react";
+import najibPhoto from "@/assets/najib-photo.jpg";
 
 const Hero = () => {
   return (
@@ -54,8 +55,12 @@ const Hero = () => {
           {/* Professional Photo */}
           <div className="relative order-1 lg:order-2 mb-8 lg:mb-0">
             <div className="relative z-10">
-              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto rounded-full bg-gradient-subtle backdrop-blur-sm border border-border/50 flex items-center justify-center shadow-soft">
-                <div className="text-muted-foreground text-base sm:text-lg font-light">Photo professionnelle</div>
+              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto rounded-full overflow-hidden border-4 border-border/50 shadow-soft">
+                <img 
+                  src={najibPhoto} 
+                  alt="Najib - Coach Professionnel" 
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
             </div>
             {/* Decorative elements - softer, more zen */}
