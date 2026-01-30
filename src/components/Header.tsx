@@ -19,7 +19,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/1d395a48-e567-4542-91fa-dddefb339339.png" 
+              src="/uploads/1d395a48-e567-4542-91fa-dddefb339339.png" 
               alt="Najib Canada Coaching" 
               className="h-10 sm:h-12 w-auto"
             />
